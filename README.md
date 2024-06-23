@@ -5,9 +5,9 @@ https://tasobucket.s3.ap-southeast-2.amazonaws.com/index.html
 
 ### 技術スタック
 GitHub Actions  
-AWS S3  
-Docker  
-Slack WebHook
+    CI CD SlackWebHook  
+AWS  
+    S3 IAM  
 
 ### Slack Notification
 
