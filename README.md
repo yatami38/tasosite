@@ -15,6 +15,6 @@ PRが作成されたら通知
 
 ![スクリーンショット 2024-06-23 200143](https://github.com/yatami38/tasosite/assets/110647327/d3585b9e-d28d-445a-b70f-fcebb56b921b)
 
-不明なユーザーが tasobucket にアクセスしたら通知
+$.userIdentity.Type が Root ではない者が tasobucket にアクセスしたら通知
 
 ![スクリーンショット 2024-06-23 220309](https://github.com/yatami38/tasosite/assets/110647327/915280dd-558a-4088-955d-414c21637cff)
