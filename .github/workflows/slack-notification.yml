@@ -1,0 +1,26 @@
+name: Created Issues
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  Slack-Notification:
+    name: Slack-Notification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack-Notification
+        id: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PR_NUMBER: ${{ github.event.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          MESSAGE="New Pull Request opened: ${PR_TITLE} by ${PR_AUTHOR}\n${PR_URL}"
+
+          curl -X POST -H 'Content-type: application/json' --data "{
+            \"text\": \"${MESSAGE}\"
+          }" $SLACK_WEBHOOK_URL
