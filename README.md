@@ -10,5 +10,5 @@ AWS
 -S3, IAM  
 
 ### Slack Notification
-
+PRが作成されたら通知
 ![スクリーンショット 2024-06-23 200143](https://github.com/yatami38/tasosite/assets/110647327/d3585b9e-d28d-445a-b70f-fcebb56b921b)
