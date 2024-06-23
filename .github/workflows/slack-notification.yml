@@ -1,4 +1,4 @@
-name: Created Issues
+name: Slack-Notification
 
 on:
   pull_request:
