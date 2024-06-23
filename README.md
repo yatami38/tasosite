@@ -7,7 +7,7 @@ https://tasobucket.s3.ap-southeast-2.amazonaws.com/index.html
 GitHub Actions  
 -CI, CD, SlackWebHook  
 AWS  
--S3, IAM, CloudTrail, CloudWatch, Lamnbda
+-S3, IAM, CloudTrail, CloudWatch, Lambda
 
 ### Slack Notification
 
