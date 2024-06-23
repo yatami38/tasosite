@@ -15,6 +15,8 @@ PRが作成されたら通知
 
 ![スクリーンショット 2024-06-23 200143](https://github.com/yatami38/tasosite/assets/110647327/d3585b9e-d28d-445a-b70f-fcebb56b921b)
 
-$.userIdentity.Type が Root ではない者が tasobucket にアクセスしたら通知
+### AWS Cloud Watch
 
-![スクリーンショット 2024-06-23 220309](https://github.com/yatami38/tasosite/assets/110647327/915280dd-558a-4088-955d-414c21637cff)
+自分ではない user が tasobucket にアクセスしたら通知
+
+![スクリーンショット 2024-06-24 005413](https://github.com/yatami38/tasosite/assets/110647327/518decda-48b6-42ef-a10a-62f468fd6c8f)
